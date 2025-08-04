@@ -1,0 +1,50 @@
+
+/* Reset basics */
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+/* Header area */
+.main-header {
+  background: #117caa;
+  color: rgb(227, 184, 12);
+  padding: 20px;
+  text-align: center;
+}
+
+.links a {
+  color: rgb(244, 244, 183);
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.section-box {
+  padding: 25px;
+  text-align: center;
+}
+
+/* Feature cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.cards div {
+  background: hsl(0, 21%, 95%);
+  padding: 15px;
+  width: 100px;
+  border-radius: 4px;
+}
+
+/* Footer */
+.bottom-footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
